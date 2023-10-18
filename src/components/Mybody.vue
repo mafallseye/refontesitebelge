@@ -1,11 +1,11 @@
 <template>
   
-  <div class="row row-cols-1 row-cols-md-5 g-4 mx-auto p-10">
+  <div class="row row-cols-1 row-cols-md-5 g-4 mx-auto p-10 ">
   <div class="col">
     <a @click=" SowMission()" style="text-decoration: none;">
     <div class="card h-100">
       <!-- <img src="..." class="card-img-top" alt="..."> -->
-      <div class="card-body">
+      <div class="card-body cursor-pointer">
         <!-- <h5 class="card-title">Card title</h5> -->
         <p class="card-text  text-center">Entreprises belges intéressées par l'Afrique de  l'Ouest</p>
       </div>
@@ -16,7 +16,7 @@
     <a @click="ShowInfo()" style="text-decoration: none;">
       <div class="card h-100 ">
       <!-- <img src="..." class="card-img-top" alt="..."> -->
-      <div class="card-body ">
+      <div class="card-body cursor-pointer ">
         <!-- <h5 class="card-title">Card title</h5> -->
         <p class="card-text text-center">Informations pour  les entreprises belges.</p>
       </div>
