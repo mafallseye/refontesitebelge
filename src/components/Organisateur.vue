@@ -8,6 +8,10 @@
 
                 </h2>
 
+                <div class="w-full bg-white rounded-full h-2.5 dark:bg-white">
+  <div class="bg-red-600 h-2.5 rounded-full" style="width: 45%"></div>
+</div>
+
             </div>
             <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
 

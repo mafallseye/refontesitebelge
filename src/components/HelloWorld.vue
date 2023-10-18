@@ -10,7 +10,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">Mission princière
+              <a class="nav-link " aria-current="page" href="/">Mission princière
               </a>
             </li>
             <li class="nav-item">
@@ -49,6 +49,10 @@
 <script>
 export default {
   name: 'HelloWorld',
+  data(){
+    return{}
+
+  },
 methods:{
   SowMission(){
     this.$router.push("/mission-economigque-belge-au-senegal")
@@ -69,6 +73,9 @@ methods:{
 <style scoped>
 a{
   visibility: visible;
+}
+.nav-item :active{
+background-color: white;
 }
 </style>
 
