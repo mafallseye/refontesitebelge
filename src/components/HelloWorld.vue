@@ -14,10 +14,10 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/mission-economigque-belge-au-senegal">Entreprises belges & secteurs</a>
+              <a class="nav-link"  @click=" SowMission()">Entreprises belges & secteurs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/entreprise-au-senegal">Entreprise du sénégal</a>
+              <a class="nav-link"  @click=" ShowListEntrepriseSenegal()">Entreprise du sénégal</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
@@ -25,12 +25,12 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/information">
+              <a class="nav-link"  @click=" ShowInfo()">
                 Informations pour les entreprises belges
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/revue-presse">
+              <a class="nav-link"  @click="ShowRevue()">
                 Revue de presse
               </a>
             </li>
@@ -49,8 +49,22 @@
 <script>
 export default {
   name: 'HelloWorld',
-
+methods:{
+  SowMission(){
+    this.$router.push("/mission-economigque-belge-au-senegal")
+  },
+  ShowListEntrepriseSenegal(){
+    this.$router.push("/entreprise-au-senegal")
+  },
+  ShowInfo(){
+    this.$router.push("/information")
+  },
+  ShowRevue(){
+    this.$router.push("/revue-presse") 
+  }
 }
+}
+
 </script>
 <style scoped>
 a{
