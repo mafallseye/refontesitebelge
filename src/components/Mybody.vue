@@ -2,7 +2,7 @@
     
   <div class="row row-cols-1 row-cols-md-5 g-4 mx-auto p-10">
   <div class="col">
-    <a href="/mission-economigque-belge-au-senegal" style="text-decoration: none;">
+    <a @click=" SowMission()" style="text-decoration: none;">
     <div class="card h-100">
       <!-- <img src="..." class="card-img-top" alt="..."> -->
       <div class="card-body">
@@ -13,7 +13,7 @@
     </a>
   </div>
   <div class="col">
-    <a href="/information" style="text-decoration: none;">
+    <a @click="ShowInfo()" style="text-decoration: none;">
       <div class="card h-100 ">
       <!-- <img src="..." class="card-img-top" alt="..."> -->
       <div class="card-body ">
@@ -227,6 +227,24 @@
   </div>
 </div>
 </template>
+<script>
+export default{
+  methods:{
+  SowMission(){
+    this.$router.push("/mission-economigque-belge-au-senegal")
+  },
+  ShowListEntrepriseSenegal(){
+    this.$router.push("/entreprise-au-senegal")
+  },
+  ShowInfo(){
+    this.$router.push("/information")
+  },
+  ShowRevue(){
+    this.$router.push("/revue-presse") 
+  }
+}
+}
+</script>
 <style scoped>
 .sen{
   background-image: url("../assets/senegal-emergent.png");
