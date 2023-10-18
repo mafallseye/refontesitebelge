@@ -37,22 +37,28 @@
     </a>
   </div>
   <div class="col">
-    <div class="card h-100">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
-      <div class="card-body">
-        <!-- <h5 class="card-title">Card title</h5> -->
-        <p class="card-text text-center">Mission Economique Belge</p>
+    <a href="https://credorse.com/news/mission-economique-belge-au-senegal"  rel="noopener noreferrer" style="text-decoration: none;">
+
+      <div class="card h-100">
+        <!-- <img src="..." class="card-img-top" alt="..."> -->
+        <div class="card-body">
+          <!-- <h5 class="card-title">Card title</h5> -->
+          <p class="card-text text-center">Mission Economique Belge-interview</p>
+        </div>
       </div>
-    </div>
+    </a>
   </div>
   <div class="col">
-    <div class="card h-100">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
-      <div class="card-body">
-        <!-- <h5 class="card-title">Card title</h5> -->
-        <p class="card-text text-center">Agence Belge du Commerce extérieur</p>
+    <a href="https://www.abh-ace.be/fr" style="text-decoration: none;">
+
+      <div class="card h-100">
+        <!-- <img src="..." class="card-img-top" alt="..."> -->
+        <div class="card-body">
+          <!-- <h5 class="card-title">Card title</h5> -->
+          <p class="card-text text-center">Agence Belge du Commerce extérieur</p>
+        </div>
       </div>
-    </div>
+    </a>
   </div>
   <div class="col">
     <a href="https://live.eventtia.com/fr/inscription_forafricc" style="text-decoration: none;">
@@ -77,13 +83,16 @@
     </a>
   </div>
   <div class="col">
-    <div class="card h-100">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
-      <div class="card-body">
-        <!-- <h5 class="card-title">Card title</h5> -->
-        <p class="card-text text-center">ENABEL</p>
+    <a href="https://www.enabel.be/fr/" style="text-decoration: none;">
+
+      <div class="card h-100">
+        <!-- <img src="..." class="card-img-top" alt="..."> -->
+        <div class="card-body">
+          <!-- <h5 class="card-title">Card title</h5> -->
+          <p class="card-text text-center">ENABEL</p>
+        </div>
       </div>
-    </div>
+    </a>
   </div>
   <div class="col">
     <div class="card h-100">
