@@ -101,16 +101,21 @@
     </div>
   </section>
 </div>
-  
+ <Organisateur /> 
+ <MyFooter />
 </template>
 <script>
 import HelloWorld from './HelloWorld.vue';
 import ImageSenegal from './ImageSenegal.vue';
+import MyFooter from './MyFooter.vue';
+import Organisateur from './Organisateur.vue';
 
 export default {
   components: {
     ImageSenegal,
-    HelloWorld
+    HelloWorld,
+    Organisateur,
+    MyFooter
 },
 data() {
     return {
