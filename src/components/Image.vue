@@ -1,9 +1,11 @@
 <template>
-    <div class="mx-auto p-2">
+    <!-- <div class="mx-auto p-2">
 
         <img src="../assets/brussel.png" class="float-start" alt="...">
     <img src="../assets/senregal.png" class=" float-end" alt="...">
-    </div>
+    </div> -->
+    <img class="h-auto w-full p-1 mx-auto" src="../assets/sengalobrussel.png" alt="image description">
+
 </template>
 <style scoped>
 

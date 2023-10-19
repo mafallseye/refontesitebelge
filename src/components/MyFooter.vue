@@ -1,5 +1,6 @@
 <template>
-    <div class="rounded float-start" > 
+<div class="">
+    <div class=" float-start " > 
         
         <div class="card" style="width: 18rem; border: none;">
   <div class="card-body">
@@ -11,7 +12,7 @@
   </div>
 </div>
         </div>
-<div class="rounded float-end" >
+<div class=" float-end" >
     <div class="card" style="width: 18rem; border: none;">
   <div class="card-body">
     <!-- <h5 class="card-title">Card title</h5> -->
@@ -43,5 +44,6 @@
     </div>
 </footer>
 
+</div>
 
 </template>
