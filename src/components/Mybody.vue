@@ -1,6 +1,6 @@
 <template>
   
-  <div class="row row-cols-1 row-cols-md-5 g-4 mx-auto p-10 ">
+  <div class="row row-cols-1 row-cols-md-5 g-4 mx-auto p-10 bg-base-100">
   <div class="col">
     <a @click=" SowMission()" style="text-decoration: none;">
     <div class="card h-100">

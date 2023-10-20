@@ -1,10 +1,10 @@
 <template>
-   <div class="">
+   <div class="bg-base-100">
        <HelloWorld />
        <ImageSenegal />
    </div>
     <!-- -------------------------bankrub--------------------------------- -->
-<div class="">
+<div class="bg-base-100">
         <nav class="flex mb-4 px-6 py-6" aria-label="Breadcrumb">
       <ol class="inline-flex items-center space-x-1 md:space-x-3">
         <li class="inline-flex items-center">
