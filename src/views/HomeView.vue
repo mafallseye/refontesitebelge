@@ -27,7 +27,7 @@
 </template>
 
 
-<script>
+<script >
 import MyFooter from "@/components/MyFooter.vue";
 import Organisateur from "@/components/Organisateur.vue";
 import Mybody from "@/components/Mybody.vue";

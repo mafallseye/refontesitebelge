@@ -14,7 +14,7 @@
   </div>
   <div class="col">
     <a @click="ShowInfo()" style="text-decoration: none;">
-      <div class="card h-100 ">
+      <div class="card h-100  ">
       <!-- <img src="..." class="card-img-top" alt="..."> -->
       <div class="card-body cursor-pointer ">
         <!-- <h5 class="card-title">Card title</h5> -->
