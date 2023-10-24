@@ -1,11 +1,11 @@
 <template>
-   <div class="bg-base-100">
-       <HelloWorld />
-       <ImageSenegal />
-   </div>
-    <!-- -------------------------bankrub--------------------------------- -->
-<div class="bg-base-100">
-        <nav class="flex mb-4 px-6 py-6" aria-label="Breadcrumb">
+  <div class="bg-base-100">
+    <HelloWorld />
+    <ImageSenegal />
+  </div>
+  <!-- -------------------------bankrub--------------------------------- -->
+  <div class="bg-base-100">
+    <nav class="flex mb-4 px-6 py-6" aria-label="Breadcrumb">
       <ol class="inline-flex items-center space-x-1 md:space-x-3">
         <li class="inline-flex items-center">
           <a href="/"
@@ -25,13 +25,14 @@
                 clip-rule="evenodd"></path>
             </svg>
             <a href="#entreprise"
-              class="ml-1 text-sm font-medium text-gray-700 hover:text-gray-900 md:ml-2 dark:text-gray-400 dark:hover:text-white">Entreprises belges intéressées par l'Afrique de  l'Ouest</a>
+              class="ml-1 text-sm font-medium text-gray-700 hover:text-gray-900 md:ml-2 dark:text-gray-400 dark:hover:text-white">Entreprises
+              belges intéressées par l'Afrique de l'Ouest</a>
           </div>
         </li>
-     
+
       </ol>
     </nav>
-    
+
     <h5 id="mission"
       class="mb-2 text-2xl px-6 cursive uppercase font-semibold tracking-tight text-gray-900 dark:text-white">
       MISSION éCONOMIQUE BELGE AU sénégal / Dox ci yoonu koom belge fii ci
@@ -40,69 +41,77 @@
             <div class="bg-red-600 h-1.5" style="width: 5%"></div>
           </div> -->
     </h5>
-     <section class="bg-white dark:bg-gray-900">
-    <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-      <div class="max-w-screen-xl p-10 text-left mb-8 lg:mb-16">
-        <label id="entreprise" @click="changeActive"
-          class="m-1 inline-flex carde items-center px-5 py-1 text-sm font-normal text-center text-gray-900 active:text-gray-900 bg-gray-100 rounded-full active:bg-gray-600 focus:ring-4 focus:outline-none active:ring-gray-300 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
-          <input type="radio" v-model="searchSector" value="" />
-          Sélectionner tout
-          <span
-            class="inline-flex justify-center items-center ml-2 w-4 h-4 text-xs font-semibold text-gay-900 bg-gray-400 rounded-full">
-            171
-          </span>
-        </label>
-        <label v-for="sect in this.secteur" :key="sect.nom" :class="{ checked: sect.checked }" @click="changeActive"
-          class="m-1 inline-flex carde items-center px-5 py-1 text-sm font-normal text-center text-gray-900 active:text-gray-900 bg-gray-100 rounded-full">
-          <input type="radio" v-model="searchSector" :value="sect.nom" />
-          {{ sect.nom }}
-          <span
-            class="inline-flex justify-center items-center ml-2 w-4 h-4 text-xs font-semibold text-gay-900 bg-gray-400 rounded-full">
-            {{ sect.nombre }}
-          </span>
-        </label>
-      </div>
-    
-      <div class=" col space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
-        <div v-for="entreprise in setSearchSector" :key="entreprise.nom">
-          <div class=" card h-100 p-6 bg-white border cadre border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-            <a :href="`${entreprise.site}`" target="_blank" title="Clique pour voir le site web">
-              <div class="flex-shrink-0">
-                <img class="mb-4" :src="require(`@/assets/${entreprise.image}.png`)" :alt="entreprise.image" />
+    <section class="bg-white dark:bg-gray-900">
+      <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+        <div class="max-w-screen-xl p-10 text-left mb-8 lg:mb-16">
+          <label id="entreprise" @click="changeActive"
+            class="m-1 inline-flex carde items-center px-5 py-1 text-sm font-normal text-center text-gray-900 active:text-gray-900 bg-gray-100 rounded-full active:bg-gray-600 focus:ring-4 focus:outline-none active:ring-gray-300 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+            <input type="radio" v-model="searchSector" value="" />
+            Sélectionner tout
+            <span
+              class="inline-flex justify-center items-center ml-2 w-4 h-4 text-xs font-semibold text-gay-900 bg-gray-400 rounded-full">
+              171
+            </span>
+          </label>
+      
+            <label v-for="sect in this.secteur" :key="sect.nom" :class="{ checked: sect.checked }" @click="changeActive"
+              class="m-1 inline-flex carde items-center px-5 py-1 text-sm font-normal text-center text-gray-900 active:text-gray-900 bg-gray-100 rounded-full">
+              <input type="radio" v-model="searchSector" :value="sect.nom" />
+              {{ sect.nom }}
+              <span
+                class="inline-flex justify-center items-center ml-2 w-4 h-4 text-xs font-semibold text-gay-900 bg-gray-400 rounded-full">
+                {{ sect.nombre }}
+              </span>
+            </label>
+          </div>
+        
 
-                <h5 class="mb-2 text-xl uppercase cursive font-medium tracking-tight text-gray-900 dark:text-white">
-                  {{ entreprise.nom }}
-                </h5>
-              </div>
-            </a>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 p-2">
-              {{ entreprise.profil }}
-            </p>
-            <a :href="`${entreprise.site}`"
-              class="w-full flex sm:w-auto bg-red-700 hover:bg-gray-700 focus:ring-4   focus:outline-none focus:ring-gray-300 text-white rounded-full inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700">
-              <div class="text-left ">
-                <!-- <div class="mb-1 text-xs">Download on the</div> -->
-                <div class="-mt-1 font-sans text-sm font-semibold flex bottom-0">
-                  Consulter le site web
-                  <svg class="w-5 h-5 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z">
-                    </path>
-                    <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z">
-                    </path>
-                  </svg>
+        <div  class=" col space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+          <div v-for="entreprise in setSearchSector" :key="entreprise.nom">
+            <div class="text-center" v-if="isLoading">
+            <div class="spinner-grow" style="width: 3rem; height: 3rem;" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+          </div>
+            <div v-else
+              class=" card h-100 p-6 bg-white border cadre border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+              <a :href="`${entreprise.site}`" target="_blank" title="Clique pour voir le site web">
+                <div class="flex-shrink-0">
+                  <img class="mb-4" :src="require(`@/assets/${entreprise.image}.png`)" :alt="entreprise.image" />
+
+                  <h5 class="mb-2 text-xl uppercase cursive font-medium tracking-tight text-gray-900 dark:text-white">
+                    {{ entreprise.nom }}
+                  </h5>
                 </div>
-                <!-- <svg class="mr-3 w-7 h-7" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="apple" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"></path></svg> -->
-              </div>
-            </a>
+              </a>
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 p-2">
+                {{ entreprise.profil }}
+              </p>
+              <a :href="`${entreprise.site}`"
+                class="w-full flex sm:w-auto bg-red-700 hover:bg-gray-700 focus:ring-4   focus:outline-none focus:ring-gray-300 text-white rounded-full inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700">
+                <div class="text-left ">
+                  <!-- <div class="mb-1 text-xs">Download on the</div> -->
+                  <div class="-mt-1 font-sans text-sm font-semibold flex bottom-0">
+                    Consulter le site web
+                    <svg class="w-5 h-5 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z">
+                      </path>
+                      <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z">
+                      </path>
+                    </svg>
+                  </div>
+                  <!-- <svg class="mr-3 w-7 h-7" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="apple" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"></path></svg> -->
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-</div>
- <Organisateur /> 
- <MyFooter />
+    </section>
+  </div>
+  <Organisateur />
+  <MyFooter />
 </template>
 <script>
 import HelloWorld from './HelloWorld.vue';
@@ -116,13 +125,14 @@ export default {
     HelloWorld,
     Organisateur,
     MyFooter
-},
-data() {
+  },
+  data() {
     return {
       searchQuery: "",
       searchSector: "",
       isVisible: false,
       showMenu: false,
+      isLoading: true,
       secteur: [
         {
           nom: "Agriculture / Agroalimentaire / Aliments / Boissons",
@@ -1875,13 +1885,19 @@ data() {
       // console.log(this.secteur[0]);
     },
   },
+  mounted() {
+    setTimeout(() => {
+      this.isLoading = false
+    }, 1000)
+  }
 
 }
 </script>
 <style scoped>
-.bdc{
-    margin-top: 10%;
+.bdc {
+  margin-top: 10%;
 }
+
 .cadre {
   border-radius: 0px 20px 0 20px;
   animation: appear 0.5s ease-in-out forwards;
@@ -1898,8 +1914,13 @@ data() {
   margin: 10px;
   cursor: pointer;
 }
-a{
-    text-decoration: none;
+
+a {
+  text-decoration: none;
 }
 
+/* label.checked {
+  background-color: gray;
+  color: black;
+} */
 </style>

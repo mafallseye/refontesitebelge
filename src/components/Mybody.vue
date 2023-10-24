@@ -3,22 +3,34 @@
   <div class="row row-cols-1 row-cols-md-5 g-4 mx-auto p-10 bg-base-100">
   <div class="col">
     <a @click=" SowMission()" style="text-decoration: none;">
-    <div class="card h-100">
+    <div class="card h-100 card1 p-1.5">
       <!-- <img src="..." class="card-img-top" alt="..."> -->
       <div class="card-body cursor-pointer">
         <!-- <h5 class="card-title">Card title</h5> -->
-        <p class="card-text  text-center">Entreprises belges intéressées par l'Afrique de  l'Ouest</p>
+        <p class="card-text  text-xl text-center font-bold">Entreprises belges intéressées par l'Afrique de  l'Ouest</p>
+        <button type="button" class="text-white float-end pt-4">
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+  </svg>
+  <span class="sr-only">Icon description</span>
+</button>
       </div>
     </div>
     </a>
   </div>
   <div class="col">
     <a @click="ShowInfo()" style="text-decoration: none;">
-      <div class="card h-100  ">
+      <div class="card h-100 card2 ">
       <!-- <img src="..." class="card-img-top" alt="..."> -->
       <div class="card-body cursor-pointer ">
         <!-- <h5 class="card-title">Card title</h5> -->
-        <p class="card-text text-center">Informations pour  les entreprises belges.</p>
+        <p class="text-xl text-center font-bold">Informations pour  les entreprises belges.</p>
+        <button type="button" class="text-white float-end pt-4">
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+  </svg>
+  <span class="sr-only">Icon description</span>
+</button>
       </div>
     </div>
     </a>
@@ -27,12 +39,19 @@
   <div class="col">
     <a href="/film-bruxel-en-wolof.mp4"
              style="text-decoration: none;">
-    <div class="card h-100">
+    <div class="card h-100 card3">
       <!-- <img src="..." class="card-img-top" alt="..."> -->
       <div class="card-body">
         <!-- <h5 class="card-title">Card title</h5> -->
-        <p class="card-text text-center">Découvrir le  film Brussels en Wolof</p>
+        <p class="text-xl text-center font-bold">Découvrir le  film Brussels en Wolof</p>
+        <button type="button" class="text-white float-end pt-4">
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+  </svg>
+  <span class="sr-only">Icon description</span>
+</button>
       </div>
+      
     </div>
     </a>
   </div>
@@ -83,7 +102,7 @@
     </a>
   </div>
   <div class="col">
-    <a href="https://www.enabel.be/fr/" style="text-decoration: none;">
+    <a href="https://www.enabel.be/fr/country/senegal/" style="text-decoration: none;">
 
       <div class="card h-100">
         <!-- <img src="..." class="card-img-top" alt="..."> -->
@@ -95,13 +114,16 @@
     </a>
   </div>
   <div class="col">
-    <div class="card h-100">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
-      <div class="card-body">
-        <!-- <h5 class="card-title">Card title</h5> -->
-        <p class="card-text text-center">Festival international du film de Bruxelles à Dakar</p>
+    <a href="https://www.fifb.be/" style="text-decoration: none;">
+
+      <div class="card h-100">
+        <!-- <img src="..." class="card-img-top" alt="..."> -->
+        <div class="card-body">
+          <!-- <h5 class="card-title">Card title</h5> -->
+          <p class="card-text text-center">Festival international du film de Bruxelles à Dakar</p>
+        </div>
       </div>
-    </div>
+    </a>
   </div>
   <div class="col">
     <a href="https://senegal.diplomatie.belgium.be/fr" style="text-decoration: none;">
@@ -255,43 +277,26 @@ export default{
 }
 </script>
 <style scoped>
-.sen{
-  background-image: url("../assets/senegal-emergent.png");
+.card{
+  border-radius: 0px 20px 0 20px;
+  animation: appear 0.5s ease-in-out forwards;
+
+}
+.card1{
+ background-image: url("../assets/fond1.png");
  background-size: cover;
- visibility: hidden;
+
 }
-.sen1{
-  background-image: url("../assets/green.png");
+.card2{
+ background-image: url("../assets/fond2.png");
  background-size: cover;
- visibility: hidden;
+
 }
-.sen2{
-  background-image: url("../assets/gouv.png");
+.card3{
+ background-image: url("../assets/fond3.png");
  background-size: cover;
- visibility: hidden;
+
 }
-.sen:hover{
-  visibility: visible;
-}
-.sen1:hover{
-  visibility: visible;
-}
-.sen2:hover{
-  visibility: visible;
-}
-.hid{
-  visibility: visible;
-}
-.hid1{
-  visibility: visible;
-}
-.hid2{
-  visibility: visible;
-}
-.hid:hover{
-  visibility: hidden;
-}
-.hid:active{
-  visibility: hidden;
-}
+
+
 </style>

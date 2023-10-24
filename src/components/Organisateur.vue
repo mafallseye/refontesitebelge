@@ -14,12 +14,20 @@
 
 
             </div>
-            <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+            <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-4 md:gap-12 md:space-y-0">
 
                 <div>
-                    <a href="https://hub.brussels/nl/">
+                    <a href="https://be.brussels/fr/propos-de-la-region">
                         <div
                             class="flex justify-center  p-6 items-center mb-4 cursor-pointer w-full h-full bg-primary-100 dark:bg-primary-900">
+                            <img class="max-w-ms mx-auto" src="../assets/brxcap.png" alt="image description" />
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://hub.brussels/fr/">
+                        <div
+                            class="flex justify-center  p-6 border-l items-center mb-4 cursor-pointer w-full h-full bg-primary-100 dark:bg-primary-900">
                             <img class="max-w-ms mx-auto" src="../assets/logo-brussel.png" alt="image description" />
                         </div>
                     </a>
