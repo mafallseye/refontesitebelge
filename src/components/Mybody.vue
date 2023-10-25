@@ -61,7 +61,7 @@
       <div class="card h-100 card5">
         <!-- <img src="..." class="card-img-top" alt="..."> -->
         <div class="card-body">
-          <h5 class="card-title">Foires et « Salons au Sénégal »</h5>
+          <h5 class="card-title text-center">Foires et « Salons au Sénégal »</h5>
           <!-- <p class="card-text text-center">Agence Belge du Commerce extérieur</p> -->
         </div>
       </div>
