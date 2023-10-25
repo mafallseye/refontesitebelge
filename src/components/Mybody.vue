@@ -6,14 +6,9 @@
     <div class="card h-100 card1 ">
       <!-- <img src="..." class="card-img-top" alt="..."> -->
       <div class="card-body cursor-pointer">
-        <h5 class="card-title text-center">Mission Economique </h5>
-        <p class="card-text  text-center">Entreprises belges intéressées par l'Afrique de  l'Ouest</p>
-        <button type="button" class="text-white float-end   mt-14  focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center  dark:bg-yellow-600 dark:hover:bg-yellow-700 dark:focus:ring-yellow-800">
-  <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-  </svg>
-  <span class="sr-only">Icon description</span>
-</button>
+        <h5 class="card-title text-center">Entreprises belges intéressées par l'Afrique de  l'Ouest.</h5>
+        <!-- <p class="card-text  text-center">Entreprises belges intéressées par l'Afrique de  l'Ouest</p> -->
+
       </div>
     </div>
     </a>
@@ -23,14 +18,9 @@
       <div class="card h-100 card2 ">
       <!-- <img src="..." class="card-img-top" alt="..."> -->
       <div class="card-body cursor-pointer ">
-        <h5 class="card-title text-center ">Information.</h5>
-        <p class="card-text text-center ">Informations utiles pour  les entreprises belges.</p>
-        <button type="button" class="text-white float-end  right-0  mt-20 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center  dark:bg-yellow-600 dark:hover:bg-yellow-700 dark:focus:ring-yellow-800">
-  <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-  </svg>
-  <span class="sr-only">Icon description</span>
-</button>
+        <h5 class="card-title text-center ">Informations utiles pour  les entreprises belges.</h5>
+        <!-- <p class="card-text text-center ">Informations utiles pour  les entreprises belges.</p> -->
+  
       </div>
     </div>
     </a>
@@ -43,13 +33,8 @@
       <!-- <img src="..." class="card-img-top" alt="..."> -->
       <div class="card-body">
         <h5 class="card-title text-center">Découvrir le  film Brussels en Wolof</h5>
-        <p class="card-text text-center "> le  film Brussels est traduit en Wolof</p>
-        <button type="button" class="text-white float-end   mt-14  focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center  dark:bg-yellow-600 dark:hover:bg-yellow-700 dark:focus:ring-yellow-800">
-  <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-  </svg>
-  <span class="sr-only">Icon description</span>
-</button>
+        <!-- <p class="card-text text-center "> le  film Brussels est traduit en Wolof</p> -->
+   
       </div>
       
     </div>
@@ -62,15 +47,10 @@
         <!-- <img src="..." class="card-img-top" alt="..."> -->
         <div class="card-body">
           <h5 class="card-title text-center">Mission Economique Belge-interview</h5>
-          <p class="card-text text-center">
+          <!-- <p class="card-text text-center">
             Une  interview pour la mission économique belge au Sénégal du 21 au 25 mai 2023
-          </p>
-          <button type="button" class="text-white float-end  mt-2  focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center  dark:bg-yellow-600 dark:hover:bg-yellow-700 dark:focus:ring-yellow-800">
-  <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-  </svg>
-  <span class="sr-only">Icon description</span>
-</button>
+          </p> -->
+  
         </div>
       </div>
     </a>
@@ -81,8 +61,8 @@
       <div class="card h-100 card5">
         <!-- <img src="..." class="card-img-top" alt="..."> -->
         <div class="card-body">
-          <!-- <h5 class="card-title">Card title</h5> -->
-          <p class="card-text text-center">Agence Belge du Commerce extérieur</p>
+          <h5 class="card-title">Foires et « Salons au Sénégal »</h5>
+          <!-- <p class="card-text text-center">Agence Belge du Commerce extérieur</p> -->
         </div>
       </div>
     </a>
@@ -92,14 +72,9 @@
     <div class="card h-100 card6">
       <!-- <img src="..." class="card-img-top" alt="..."> -->
       <div class="card-body">
-        <h5 class="card-title text-center"> Programme FORAFRICC.</h5>
-        <p class="card-text text-center">Forum Africain des Industries Culturelles et créatives</p>
-        <button type="button" class="text-white float-end mt-6  focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center  dark:bg-yellow-600 dark:hover:bg-yellow-700 dark:focus:ring-yellow-800">
-  <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-  </svg>
-  <span class="sr-only">Icon description</span>
-</button>
+        <h5 class="card-title text-center"> Forum Africain des Industries Culturelles et créatives.</h5>
+        <!-- <p class="card-text text-center">Forum Africain des Industries Culturelles et créatives</p> -->
+   
       </div>
     </div>
     </a>
@@ -110,16 +85,11 @@
       <!-- <img src="..." class="card-img-top" alt="..."> -->
       <div class="card-body">
         <h5 class="card-title text-center">Finexpo-Brochure FR</h5>
-        <p class="card-text text-center">Finexpo a pour
+        <!-- <p class="card-text text-center">Finexpo a pour
 objectif de soutenir l’exportation de
 biens d’équipement belges et de
-services afférents.</p>
-<button type="button" class="text-white float-end   mt-4 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center  dark:bg-yellow-600 dark:hover:bg-yellow-700 dark:focus:ring-yellow-800">
-  <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-  </svg>
-  <span class="sr-only">Icon description</span>
-</button>
+services afférents.</p> -->
+
       </div>
     </div>
     </a>
@@ -131,13 +101,8 @@ services afférents.</p>
         <!-- <img src="..." class="card-img-top" alt="..."> -->
         <div class="card-body">
           <h5 class="card-title text-center">ENABEL</h5>
-          <p class="card-text text-center">Enabel est l’agence de développement du gouvernement fédéral belge</p>
-          <button type="button" class="text-white float-end   mt-4  focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center  dark:bg-yellow-600 dark:hover:bg-yellow-700 dark:focus:ring-yellow-800">
-  <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-  </svg>
-  <span class="sr-only">Icon description</span>
-</button>
+          <!-- <p class="card-text text-center">Enabel est l’agence de développement du gouvernement fédéral belge</p> -->
+   
         </div>
       </div>
     </a>
@@ -149,13 +114,8 @@ services afférents.</p>
         <!-- <img src="..." class="card-img-top" alt="..."> -->
         <div class="card-body ">
           <h5 class="card-title text-center">Festival international du film de Bruxelles à Dakar</h5>
-          <p class="card-text text-center">FIFB - Du 14 au 18 Novembre 2023 </p>
-          <button type="button" class="text-white float-end   mt-4  focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center  dark:bg-yellow-600 dark:hover:bg-yellow-700 dark:focus:ring-yellow-800">
-  <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-  </svg>
-  <span class="sr-only">Icon description</span>
-</button>
+          <!-- <p class="card-text text-center">FIFB - Du 14 au 18 Novembre 2023 </p> -->
+   
         </div>
       </div>
     </a>
@@ -167,13 +127,8 @@ services afférents.</p>
           <!-- <img src="..." class="card-img-top" alt="..."> -->
           <div class="card-body ">
             <h5 class="card-title text-center">Ambassade de Belgique au sénégal </h5>
-            <p class="card-text text-center">Toutes les informations pratiques sur notre Ambassade à Dakar.</p>
-            <button type="button" class="text-white float-end   mt-4  focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center  dark:bg-yellow-600 dark:hover:bg-yellow-700 dark:focus:ring-yellow-800">
-  <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-  </svg>
-  <span class="sr-only">Icon description</span>
-</button>
+            <!-- <p class="card-text text-center">Toutes les informations pratiques sur notre Ambassade à Dakar.</p> -->
+    
           </div>
         </div>
     </a>
