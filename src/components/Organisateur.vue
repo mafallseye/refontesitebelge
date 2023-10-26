@@ -2,8 +2,8 @@
 
     
     <section class="bg-white dark:bg-gray-900">
-        <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-            <div class="max-w-screen-xl p-10 mb-8 bg-white lg:mb-16">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+            <div class=" max-w-screen-sm text-center lg:mb-16 mb-8">
                 <h2 id="organisateurs"
                     class="mb-2  px-4 card-title flex cursive uppercase  tracking-tight text-gray-900 dark:text-white">
                     Nos Partenaires
@@ -98,7 +98,7 @@
                   <span class="text-sm">14 days ago</span> -->
               <!-- </div> -->
               <!-- <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="#">How to quickly deploy a static website</a></h2> -->
-              <p class="mb-2 font-light text-gray-500 dark:text-gray-400">  hub.brussel vise à promouvoir l'internationalisation de l'économie bruxelloise en assistant les entreprises bruxelloises sur les marchés étrangers.</p>
+              <p class="mb-2 font-semibold text-gray-900 dark:text-gray-900">  hub.brussel vise à promouvoir l'internationalisation de l'économie bruxelloise en assistant les entreprises bruxelloises sur les marchés étrangers.</p>
               <!-- <div class="flex justify-between items-center"> -->
                   <!-- <div class="flex items-center space-x-4">
                       <img class="w-7 h-7 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="Jese Leos avatar" />
@@ -121,7 +121,7 @@
                   <span class="text-sm">14 days ago</span>
               </div> -->
               <!-- <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="#">Our first project with React</a></h2> -->
-              <p class="mb-2 font-light text-gray-500 dark:text-gray-400"> Le service Economique et Commercial ne s'occupe pas de Visas.</p>
+              <p class="mb-2 font-semibold text-gray-900 dark:text-gray-900"> Le service Economique et Commercial ne s'occupe pas de Visas.</p>
               <div class="flex justify-between items-center">
                   <!-- <div class="flex items-center space-x-4">
                       <img class="w-7 h-7 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Green avatar" />
