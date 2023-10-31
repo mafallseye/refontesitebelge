@@ -29,23 +29,28 @@
     </nav>
 <div class="row row-cols-1 row-cols-md-5 g-4 mx-auto p-10">
   <div class="col">
-    <div class="card h-100 card1">
+    <a href="https://investinsenegal.sn/services/creation-dentreprise/">
+      <div class="card h-100 card1">
       <!-- <img src="..." class="card-img-top" alt="..."> -->
       <div class="card-body">
         <!-- <h5 class="card-title">Card title</h5> -->
         <p class="card-text  text-center">Ouvrir une entreprise au Sénégal</p>
       </div>
     </div>
+    </a>
+    
   </div>
   <div class="col">
-    
-    <div class="card h-100  card2"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <a href="https://investinsenegal.sn/">
+      <div class="card h-100  card2"  data-bs-toggle="modal" data-bs-target="#exampleModal">
       <!-- <img src="..." class="card-img-top" alt="..."> -->
       <div class="card-body ">
         <!-- <h5 class="card-title">Card title</h5> -->
         <p class="card-text text-center">Secteurs porteurs au Sénégal</p>
       </div>
     </div>
+    </a>
+   
   </div>
  
   <div class="col">

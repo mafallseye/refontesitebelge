@@ -10,8 +10,8 @@
 
                 </h2>
 
-                <div class="w-full bg-white rounded-full h-2.5 dark:bg-white">
-  <div class="bg-red-600 h-1.5 " style="width: 45%"></div>
+                <div class=" px-6 bg-white rounded-full h-2.5 dark:bg-white">
+  <div class="bg-red-600 h-1.5 " style="width: 15%"></div>
 </div>
 
 
@@ -83,8 +83,8 @@
   <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
       <div class=" max-w-screen-sm text-center lg:mb-16 mb-8">
           <h2 class="mb-2  px-4 card-title flex cursive uppercase  tracking-tight text-gray-900 dark:text-white">NOS SERVICES</h2>
-          <div class="w-full bg-gray-100 rounded-full h-2.5 dark:bg-white">
-  <div class="bg-red-600 h-1.5 " style="width: 45%"></div>
+          <div class="px-6 bg-gray-100 rounded-full h-2.5 dark:bg-white">
+  <div class="bg-red-600 h-1.5 " style="width: 15%"></div>
 </div>
           <!-- <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">We use an agile approach to test assumptions and connect with the needs of your audience early and often.</p> -->
       </div> 

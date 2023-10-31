@@ -26,26 +26,26 @@
             </svg>
             <a href="#entreprise"
               class="ml-1 text-sm font-medium text-gray-700 hover:text-gray-900 md:ml-2 dark:text-gray-400 dark:hover:text-white">Entreprises
-              belges intéressées par l'Afrique de l'Ouest</a>
+               Belges intéressées par le Sénégal</a>
           </div>
         </li>
 
       </ol>
     </nav>
 
-    <h5 id="mission"
+    <!-- <h5 id="mission"
       class="mb-2 text-2xl px-6 cursive uppercase font-semibold tracking-tight text-gray-900 dark:text-white">
       MISSION éCONOMIQUE BELGE AU sénégal / Dox ci yoonu koom belge fii ci
-      sénégal
+      sénégal -->
       <!-- <div class="w-full bg-white  bordered rounded-full h-2.5 dark:bg-gray-700">
             <div class="bg-red-600 h-1.5" style="width: 5%"></div>
           </div> -->
-    </h5>
+    <!-- </h5> -->
     <section class="bg-white dark:bg-gray-900">
       <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
         <div class="max-w-screen-xl p-10 text-left mb-8 lg:mb-16">
-          <label id="entreprise" @click="changeActive"
-            class="m-1 inline-flex carde items-center px-5 py-1 text-sm font-normal text-center text-gray-900 active:text-gray-900 bg-gray-100 rounded-full active:bg-gray-600 focus:ring-4 focus:outline-none active:ring-gray-300 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+          <label id="entreprise" 
+            class="m-1 inline-flex carde items-center px-5 py-1 text-sm font-normal text-center text-gray-900  bg-gray-100 rounded-full  focus:ring-4 focus:outline-none active:ring-gray-300 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
             <input type="radio" v-model="searchSector" value="" />
             Sélectionner tout
             <span
@@ -54,7 +54,7 @@
             </span>
           </label>
       
-            <label v-for="sect in this.secteur" :key="sect.nom" :class="{ checked: sect.checked }" @click="changeActive"
+            <label v-for="sect in this.secteur" :key="sect.nom" 
               class="m-1 inline-flex carde items-center px-5 py-1 text-sm font-normal text-center text-gray-900 active:text-gray-900 bg-gray-100 rounded-full">
               <input type="radio" v-model="searchSector" :value="sect.nom" />
               {{ sect.nom }}
