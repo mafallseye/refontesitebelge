@@ -6,7 +6,7 @@
    
  
       <div class="sm:flex sm:items-center sm:justify-between ">
-          <span class="text-md text-gray-500 sm:text-center dark:text-gray-400">© 2023? <a href="https://hub.brussels/fr/" class="hover:underline">hub.brussels</a>. Tous droits réservés
+          <span class="text-md text-gray-500 sm:text-center dark:text-gray-400">© 2023, <a href="https://hub.brussels/fr/" class="hover:underline">hub.brussels</a>. Tous droits réservés
           </span>
           <div class="flex mt-4 space-x-5 sm:justify-center sm:mt-0 ">
               <!-- <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">

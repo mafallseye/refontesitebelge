@@ -29,7 +29,7 @@
     </nav>
 <div class="row row-cols-1 row-cols-md-5 g-4 mx-auto p-10">
   <div class="col">
-    <a href="https://investinsenegal.sn/services/creation-dentreprise/">
+    <a href="https://investinsenegal.sn/services/creation-dentreprise/" style="text-decoration: none;">
       <div class="card h-100 card1">
       <!-- <img src="..." class="card-img-top" alt="..."> -->
       <div class="card-body">
@@ -41,7 +41,7 @@
     
   </div>
   <div class="col">
-    <a href="https://investinsenegal.sn/">
+    <a href="https://investinsenegal.sn/" style="text-decoration: none;"> 
       <div class="card h-100  card2"  data-bs-toggle="modal" data-bs-target="#exampleModal">
       <!-- <img src="..." class="card-img-top" alt="..."> -->
       <div class="card-body ">
