@@ -195,6 +195,25 @@ services afférents.</p> -->
         </div>
     </a>
   </div>
+  <div class="col">
+    <a @click="ShowListEntrepriseSenegal()" style="text-decoration: none;">
+      <div class="card h-100 card2 ">
+      <!-- <img src="..." class="card-img-top" alt="..."> -->
+      <div class="card-body cursor-pointer ">
+        <h5 class="card-title text-center ">Entreprises du senegal.</h5>
+        <!-- <p class="card-text text-center ">Informations utiles pour  les entreprises belges.</p> -->
+  
+      </div>
+      <button type="button" class="text-white  text-sm p-3.5 text-center inline-flex items-center mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+  <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+  </svg>
+  <span class="sr-only">Icon description</span>
+</button>
+    </div>
+    </a>
+    
+  </div>
 </div>
 <!-- -------------------------------modal---------------------------------------------- -->
 

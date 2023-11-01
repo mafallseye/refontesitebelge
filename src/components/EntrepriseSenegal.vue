@@ -24,7 +24,7 @@
             <a href="#entreprise"
               class="ml-1 text-sm font-medium text-gray-700 hover:text-gray-900 md:ml-2 dark:text-gray-400 dark:hover:text-white">Entreprises
               & secteurs au sénégal</a>
-          </div>
+          </div>Énergie / Eau / Environement / Technologies propres
         </li>
 
       </ol>
@@ -2389,6 +2389,195 @@ export default {
           profil: "Banque présente dans 11 pays et leader en zone CEMAC (Communauté Economique et Monétaire de l’Afrique Centrale).",
           image: "logo-e1470418907567",
           site: "https://senegal.groupebgfibank.com/"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "AQUATECH SENEGAL",
+          profil: "45 ans d’expérience dans la gestion et la distribution de l’eau, présent dans 24 pays dans le monde dont 5 en Afrique. Elle est l’instrument d’application de la réforme de l’hydraulique au Sénégal.",
+          image: "cropped-AQ-version-horizontale-1",
+          site: "https://aquatech.sn/"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "Alpha Engineering Group (ALPHEG)",
+          profil: "Ingénieur électricien.",
+          image: "",
+          site: "https://alpheg.business.site/?utm_source=gmb&utm_medium=referral"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "Atlantic Petroleum Africa (APA)",
+          profil: "Distribution et importation de produits hydrocarbures raffinés.",
+          image: "LOGO-APA2-1536x935",
+          site: "https://atlanticpetroleumafrica.com/"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "BEIN2E",
+          profil: "Bureau d'etude - ingénieur electricien.",
+          image: "logo-bnd",
+          site: "https://www.linkedin.com/pulse/bein2e-sas-projet-detude-et-de-realisation-20-pour-un-ndiaye/?trk=articles_directory&originalSubdomain=de"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "BP Senegal Investments Limited",
+          profil: "Entreprise énergétique intégrée avec des opérations en Europe, en Amérique du Nord et du Sud, en Australasie, en Asie et en Afrique Fournissant des solutions énergétiques à des clients du monde entier.",
+          image: "logobp",
+          site: "https://www.bp.com/"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "Bet plus sa",
+          profil: "Geotechnique- geomatique - electricité et eau.",
+          image: "logo-bet",
+          site: "https://betplus-sn.com/"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "CB MOTORS",
+          profil: "Distribution de lubrifiants pour véhicules.",
+          image: "logo-champion",
+          site: "https://www.championlubes.com/en-us"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "Cogelec energy",
+          profil: "Ingénieur électricien.",
+          image: "logo-cogelec",
+          site: "https://cogelecsn.com/"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "Dakarelec",
+          profil: "Installation électrique de tous bâtiments et raccordement au réseau de distribution, Eclairage intérieur et extérieur, Eclairage de secours…",
+          image: "logo-dakar-elec",
+          site: "https://cogelecsn.com/"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "Elton Oil Company",
+          profil: "Distribution de carburant et des services auto.",
+          image: "elton-logo",
+          site: "https://www.eltonoil.com/"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "Engineering & Environment Services (Cabinet EES)",
+          profil: "Consultant en environnement.",
+          image: "logo-ees",
+          site: "https://www.cabinet-ees.com/"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "Environnement, déchets, eaux (EDE)",
+          profil: "Société d’ingénierie, conseils contribuant au développement du secteur de l’assainissement et de l’eau, présent au Sénégal, au Burkina Faso, au Niger, en Côte d'Ivoire et en Haiti.",
+          image: "logo-ede",
+          site: "https://www.cabinetede.com/"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "Equip Plus",
+          profil: "Spécialiste dans la mise en oeuvre des solutions électro-hydro-mécaniques.",
+          image: "logo-equip",
+          site: "https://www.equiplus.sn/"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "GAUFF GmbH & Co. Engineering KG",
+          profil: "Entreprise familiale encourageant l’amélioration des conditions économiques et socio-économiques grâce au développement, à la planification et à la mise en œuvre d’infrastructures essentielles sur le continent africain, mais aussi dans notre patrie, l’Allemagne et le monde entier.",
+          image: "logo-gauff",
+          site: "https://www.gauff.net/"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "Grande Côte Opérations SA/filiale Groupe Eramet",
+          profil: "Exploitation de sables minéralisés et production de l’ilménite et du zircon.",
+          image: "logo-eramet",
+          site: "https://www.eramet.com/en/"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "Groupe Soterco",
+          profil: "Consultant en ingénierie.",
+          image: "logo_soterco",
+          site: "https://www.groupesoterco.com/"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "IBRIZ",
+          profil: "Société de technologie solaire axée sur l’utilisation productive de l’énergie solaire dans l’agriculture.",
+          image: "Attachment_1621121723",
+          site: "https://ibriz.co/"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "IDC – International Drilling Company",
+          profil: "Société de forage fournissant des solutions modernes à l’industrie minière mondiale.",
+          image: "logo-idc",
+          site: "https://www.idc-drilling.com/"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "LSE- group vinci",
+          profil: "Energie.",
+          image: "logo-lse",
+          site: "https://www.lse-energies.com/sn/QUE+FAISONS+NOUS"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "Lub & Supply",
+          profil: "Lubrification, Maintenance et Fournitures industrielles.",
+          image: "logo-lub",
+          site: "https://www.linkedin.com/company/lub-supply/?originalSubdomain=sn"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "Matrix senegal",
+          profil: "Management de projets, AMO, étude, conception. Calculs (réseaux de fluides – tuyauterie/piping), charpente métallique. Électricité, automatisme, instrumentation : audit et expertise. Marchés publics : APS, APD/PC, PRO , DCE. HVAC (CVC ), HSE, maintenance et fiabilisation.",
+          image: "logo-matrix",
+          site: "https://matrixsenegal.com/ingenierie-des-installations-generales/"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "Mineex",
+          profil: "Forage et Minage.",
+          image: "logo-epc",
+          site: "https://www.epc-mineex.sn/"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "Oryx Sénégal SA",
+          profil: "Fournisseur indépendants de produits et services pétroliers et gaziers les plus importants et les plus anciens en Afrique subsaharienne.",
+          image: "logo-oryx",
+          site: "https://www.oryxenergies.com/"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "PMI AFRIQUE",
+          profil: "Spécialisé dans la conception et la réalisation d’installations de traitement d’eau en Afrique de l’Ouest, partenariat exclusif avec le leader européen du secteur, BWT.",
+          image: "logo-pmi",
+          site: "https://pmi-afrique.com/"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "SC Afrique SARL",
+          profil: "Ingénieurs_ conseils.",
+          image: "logo-sc",
+          site: "https://scafrique.com/en/"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "SEN BIO PLASTICS",
+          profil: "Recyclage de déchets plastiques, négoce de matières premières plastiques et de produits chimiques de laboratoires.",
+          image: "logo-sen-bio",
+          site: "https://www.linkedin.com/company/senbioplastics-sas/about/"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "SEN'EAU",
+          profil: "Entreprise en charge de l’exploitation et de la distribution de l’eau potable en zone urbaine et péri-urbaine du Sénégal.",
+          image: "logo-sen-eau",
+          site: "https://www.seneau.sn/"
         },
 
       ],
