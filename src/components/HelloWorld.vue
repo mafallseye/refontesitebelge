@@ -8,7 +8,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav m-auto mb-2 mb-lg-0 uppercase text-center">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0 uppercase ">
             <li class="nav-item text-base font-medium text-gray-900 cursor-pointer">
               <router-link to="/" class="nav-link ">Accueil
               </router-link>
