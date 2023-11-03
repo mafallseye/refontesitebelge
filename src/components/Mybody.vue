@@ -200,7 +200,7 @@ services afférents.</p> -->
       <div class="card h-100 card2 ">
       <!-- <img src="..." class="card-img-top" alt="..."> -->
       <div class="card-body cursor-pointer ">
-        <h5 class="card-title text-center ">Entreprises du senegal.</h5>
+        <h5 class="card-title text-center ">Entreprises du senegal</h5>
         <!-- <p class="card-text text-center ">Informations utiles pour  les entreprises belges.</p> -->
   
       </div>
@@ -337,6 +337,16 @@ services afférents.</p> -->
 </template>
 <script>
 export default{
+  data(){
+return{
+  listBody:[
+    {
+      name:"Entreprises belges intéressées par l'Afrique de  l'Ouest.",
+      card:"card"
+    }
+  ]
+}
+  },
   methods:{
   SowMission(){
     this.$router.push("/mission-economigque-belge-au-senegal")

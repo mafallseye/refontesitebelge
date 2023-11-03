@@ -24,7 +24,20 @@
             <a href="#entreprise"
               class="ml-1 text-sm font-medium text-gray-700 hover:text-gray-900 md:ml-2 dark:text-gray-400 dark:hover:text-white">Entreprises
               & secteurs au sénégal</a>
-          </div>Énergie / Eau / Environement / Technologies propres
+          </div>
+        </li>
+        <li>
+          <div class="flex items-center">
+            <svg class="w-6 h-6 text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                clip-rule="evenodd"></path>
+            </svg>
+            <a href="#entreprise"
+              class="ml-1 text-sm font-medium text-gray-700 hover:text-gray-900 md:ml-2 dark:text-gray-400 dark:hover:text-white">
+              <span class="bg-gray-100 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-gray-900 dark:text-gray-300">{{ searchSector }}</span>
+            </a>
+          </div>
         </li>
 
       </ol>
@@ -70,10 +83,13 @@
           </a>
        
         </div> -->
+       >>> <span class="bg-blue-100 text-blue-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-red-900 dark:text-blue-300">{{ searchSector }}</span>
 
       <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+
         <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
           <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+            
             <tr>
               <th colspan="4" scope="col" class="px-10 py-6">
 
@@ -2578,6 +2594,27 @@ export default {
           profil: "Entreprise en charge de l’exploitation et de la distribution de l’eau potable en zone urbaine et péri-urbaine du Sénégal.",
           image: "logo-sen-eau",
           site: "https://www.seneau.sn/"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "SEPHOS",
+          profil: "Production de roche phosporique.",
+          image: "",
+          site: "https://sephossenegal.com/"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "SGF",
+          profil: "Distribution d'hydrocarbures et de lubrifiants.",
+          image: "Logo-SGF-Vrai",
+          site: "https://sgf.sn/"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "Sahel Gaz",
+          profil: "Production et de fourniture d'énergies : pétrole et biocarburants, gaz naturel et gaz verts, renouvelables et électricité.",
+          image: "logo-blanc-png",
+          site: "https://sahelgaz.com/"
         },
 
       ],

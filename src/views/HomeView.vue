@@ -1,10 +1,10 @@
 <template>
   <div class="home">
-    <div class="text-center  spin" v-if="isLoading">
+    <!-- <div class="text-center  spin" v-if="isLoading">
  <div class="spinner-grow" style="width: 3rem; height: 3rem;" role="status">
   <span class="visually-hidden">Loading...</span>
 </div>
-</div>
+</div> -->
 
 <!-- <div class="text-center spin" v-if="isLoading">
     <div role="status">
@@ -16,7 +16,7 @@
     </div>
   </div> -->
     <!-- <HelloWorld /> -->
-    <div v-else>
+    <div >
 
       
       

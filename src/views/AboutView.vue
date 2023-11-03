@@ -1,9 +1,10 @@
 <template>
   <div class="about">
-    <div class="text-center  spin" v-if="isLoading">
- <div class="spinner-grow" style="width: 3rem; height: 3rem;" role="status">
-  <span class="visually-hidden">Loading...</span>
-</div>
+   
+<div class="d-flex justify-content-center spin" v-if="isLoading">
+  <div class="spinner-border" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
 </div>
     <!-- <HelloWorld /> -->
   <!-- <Image />  -->
@@ -42,7 +43,7 @@ mounted () {
 .spin{
 
 padding-top: 25%;
- font-size :32px;
+
 
  
 }
