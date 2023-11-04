@@ -27,7 +27,9 @@
      
       </ol>
     </nav>
-<div class="row row-cols-1 row-cols-md-5 g-4 mx-auto p-10">
+    <h1 class="mb-2 px-10 text-lg font-semibold text-gray-900 dark:text-white">Nous sommes là pour vous accompagner tout au long de votre projet:</h1>
+<div class="row row-cols-1 row-cols-md-3 g-4 mx-auto p-10">
+  
   <div class="col">
     <a href="https://investinsenegal.sn/services/creation-dentreprise/" style="text-decoration: none;">
       <div class="card h-100 card1">
@@ -119,18 +121,18 @@
     </div>
     </a>
   </div>
-  <div class="col">
+  <!-- <div class="col">
     <a href="https://senegal.diplomatie.belgium.be/fr" style="text-decoration: none;">
 
         <div class="card h-100 card9">
-          <!-- <img src="..." class="card-img-top" alt="..."> -->
+        
           <div class="card-body">
-            <!-- <h5 class="card-title">Card title</h5> -->
+           
             <p class="card-text text-center">Ambassade de Belgique au sénégal</p>
           </div>
         </div>
     </a>
-  </div>
+  </div> -->
 </div>
 <Organisateur />
 <MyFooter />
