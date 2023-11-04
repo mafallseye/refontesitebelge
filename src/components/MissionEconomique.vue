@@ -60,10 +60,10 @@
             class="m-1 inline-flex carde items-center px-5 py-1 text-sm font-normal text-center text-gray-900  bg-gray-100 rounded-full  focus:ring-4 focus:outline-none active:ring-gray-300 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
             <input type="radio" v-model="searchSector" value="" />
             Sélectionner tout
-            <span
+            <!-- <span
               class="inline-flex justify-center items-center ml-2 w-4 h-4 text-xs font-semibold text-gay-900 bg-gray-400 rounded-full">
               171
-            </span>
+            </span> -->
           </label>
 
           <label v-for="sect in this.secteur" :key="sect.nom"
