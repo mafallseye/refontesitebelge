@@ -294,7 +294,7 @@ export default {
         },
         {
           nom: "Énergie / Eau / Environement / Technologies propres",
-          nombre: 0,
+          nombre: 41,
         },
         {
           nom: "Industries culturelles et créatives / loisirs / Tourisme",
@@ -302,7 +302,7 @@ export default {
         },
         {
           nom: "Fédération et chambre de commerce",
-          nombre: 0,
+          nombre: 12,
         },
 
       ],
@@ -2615,6 +2615,167 @@ export default {
           profil: "Production et de fourniture d'énergies : pétrole et biocarburants, gaz naturel et gaz verts, renouvelables et électricité.",
           image: "logo-blanc-png",
           site: "https://sahelgaz.com/"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "Serex sarl",
+          profil: "Société d'étude, de réalisation et d'exploitation de l'énergie.",
+          image: "logo-serex",
+          site: "https://serex.sn/"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "Siat senegal",
+          profil: "SIAT SÉNÉGAL est une société d’ingénierie ayant pour mission d’apporter son expertise dans toutes les phases de réalisation d’un projet de la formulation au suivi-évaluation en passant par le suivi et le contrôle de son exécution. Elle s’est fixée comme objectif d’assurer des prestations de qualité en matière d’études, de conseils et d’assistance technique.",
+          image: "logo-siat",
+          site: "https://siat-senegal.com/"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "Sociétè Italo-Sénégalaise pour le Développement des Energies Alternatives au Sénégal (SISDEA)",
+          profil: "Energies renouvelables.",
+          image: "",
+          site: ""
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "Société Africaine de raffinage (SAR)",
+          profil: "Société ayant pour vocation le raffinage du pétrole brut pour l’approvisionnement du marché sénégalais en produits pétroliers.",
+          image: "logo-sar2",
+          site: "http://www.sar.sn/"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "Torex Sarl",
+          profil: "Conception et réalisation des stations de pompage d’eau dans le domaine rural et urbain, Equipements hydrauliques, Equipements électriques, automatismes, automates programmables, Télétransmission : supervision, télégestion et télésurveillance.",
+          image: "400pngdpilogocropped",
+          site: "http://torexsn.com/"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "Total Energies",
+          profil: "automates programmables, Télétransmission : supervision, télégestion et télésurveillance.",
+          image: "logo-total",
+          site: "https://totalenergies.sn/"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "Trouvay & Cauvin",
+          profil: "Fournisseur de solutions de tuyauterie au secteur de l’énergie.",
+          image: "TC-GROUP-LOGO-1-1536x696",
+          site: "https://trouvaycauvin.com/"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "Tsg sénégal-Cosetam",
+          profil: "Fournisseur mondial d’équipements et de services pour les stations-service et les sociétés pétrolières.",
+          image: "logo-tsg",
+          site: "https://www.tsg-solutions.com/sn/"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "Unité de Coordination de la Gestion des Déchets solides (UCG)",
+          profil: "Agence rattachée au Ministère de l'Urbanisme, du Logement et de l'Hygiène publique en chargé d’accompagner les collectivités locales dans la prise en charge de leurs compétences, en matière de gestion des déchets solides.",
+          image: "logo_UCG",
+          site: "https://www.ucg.gouv.sn/"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "Vinci energies senegal",
+          profil: "Actif dans le secteur des concessions, de l’énergie et de la construction, présent dans plus de 120 pays. Son ambition, face à l’urgence environnementale, est d’accélérer la transformation du cadre de vie, des infrastructures et de la mobilité.",
+          image: "logo-vinci",
+          site: "https://www.vinci.com/vinci.nsf/fr/index.htm"
+        },
+        {
+          secteur: "Énergie / Eau / Environement / Technologies propres",
+          nom: "VVivo Energy Sénégal",
+          profil: "Distribution et commercialisation des carburants et lubrifiants de la marque Shell et Engen, présent dans 23 pays en Afrique.",
+          image: "vivo-logo_0",
+          site: "https://www.vivoenergy.com/fr"
+        },
+        {
+          secteur: "Fédération et chambre de commerce",
+          nom: "Association Nationale des Bijoutiers du Sénégal (ANBS)",
+          profil: "Etude et défense des interets des membres et de la profession.",
+          image: "logo-anbs",
+          site: "https://www.facebook.com/associationnationale?mibextid=ZbWKwL"
+        },
+        {
+          secteur: "Fédération et chambre de commerce",
+          nom: "Association des exploitants semi-mécanisée d'or et de substances connexes du Sénégal",
+          profil: "Etude et défense des interets des membres et de la profession.",
+          image: "logo-anbs",
+          site: "https://www.facebook.com/associationnationale?mibextid=ZbWKwL"
+        },
+        {
+          secteur: "Fédération et chambre de commerce",
+          nom: "CIS Club des investisseurs du Sénégal",
+          profil: "Club des investisseurs du Sénégal.",
+          image: "logo-cis",
+          site: "https://clubdesinvestisseurs.org/index.php/accueil-english/"
+        },
+        {
+          secteur: "Fédération et chambre de commerce",
+          nom: "CNES",
+          profil: "Confédération National des Employeurs du Sénégal.",
+          image: "logo-cnes",
+          site: "https://cnes.sn/"
+        },
+        {
+          secteur: "Fédération et chambre de commerce",
+          nom: "CNP Conseil National du Patronat du Sénégal",
+          profil: "Conseil National du Patronat du Sénégal (CNP).",
+          image: "logo-1553107208",
+          site: "https://www.cnp.sn/"
+        },
+        {
+          secteur: "Fédération et chambre de commerce",
+          nom: "Chambre de Commerce d'Industrie et d'Agriculture de dakar (CCIAD)",
+          profil: "Représentant de l’ensemble des opérateurs économiques et défenseur des intérêts généraux des entreprises industrielles, commerciales et agricoles.",
+          image: "logo-cciad",
+          site: "https://cciad.sn/"
+        },
+        {
+          secteur: "Fédération et chambre de commerce",
+          nom: "Confédération des Syndicats Autonomes (CSA Sénégal-)",
+          profil: "Syndicat des travailleurs.",
+          image: "logo-csa",
+          site: "https://www.facebook.com/confederationcsa?mibextid=ZbWKwL"
+        },
+        {
+          secteur: "Fédération et chambre de commerce",
+          nom: "Institut De Technologie Alimentaire (ITA)",
+          profil: "Institut de recherche-développement à voccation agroalimentaire.",
+          image: "itaPlan-de-travail-1",
+          site: "https://ita.sn/"
+        },
+        {
+          secteur: "Fédération et chambre de commerce",
+          nom: "Institut Sénégalais de Recherches Agricoles (ISRA)",
+          profil: "Recherches dans les domaines de production animales, végétales, forestières, halieutiques et socio-économiques.",
+          image: "logo-isra",
+          site: "https://isra.sn/"
+        },
+        {
+          secteur: "Fédération et chambre de commerce",
+          nom: "MEDS",
+          profil: "Mouvement des entreprises du Sénégal.",
+          image: "logo-meds",
+          site: "https://meds-senegal.com/"
+        },
+        {
+          secteur: "Fédération et chambre de commerce",
+          nom: "UNCCIAS",
+          profil: "Union des chambres de commerce.",
+          image: "logo-uncias",
+          site: "https://www.facebook.com/unccias"
+        },
+        {
+          secteur: "Fédération et chambre de commerce",
+          nom: "WIM Sénégal",
+          profil: "Promotion du leadership féminin dans le secteur féminin.",
+          image: "logo-wim",
+          site: "https://wimsenegal.org/"
         },
 
       ],
