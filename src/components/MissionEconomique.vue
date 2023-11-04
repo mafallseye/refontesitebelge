@@ -26,18 +26,19 @@
             </svg>
             <a href="#entreprise"
               class="ml-1 text-sm font-medium text-gray-700 hover:text-gray-900 md:ml-2 dark:text-gray-400 dark:hover:text-white">Entreprises
-               Belges intéressées par le Sénégal</a>
+              Belges intéressées par le Sénégal</a>
           </div>
         </li>
-        <li >
+        <li>
           <div class="flex items-center">
             <svg class="w-6 h-6 text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd"
                 d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
                 clip-rule="evenodd"></path>
             </svg>
-            <a href="#entreprise"
-       class="bg-gray-100 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-gray-900 dark:text-gray-300">{{ searchSector }}</a>
+            <a href="#entreprise" v-if="searchSector != ''"
+              class="bg-gray-100 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-gray-900 dark:text-gray-300">{{
+                searchSector }}</a>
           </div>
         </li>
 
@@ -48,14 +49,14 @@
       class="mb-2 text-2xl px-6 cursive uppercase font-semibold tracking-tight text-gray-900 dark:text-white">
       MISSION éCONOMIQUE BELGE AU sénégal / Dox ci yoonu koom belge fii ci
       sénégal -->
-      <!-- <div class="w-full bg-white  bordered rounded-full h-2.5 dark:bg-gray-700">
+    <!-- <div class="w-full bg-white  bordered rounded-full h-2.5 dark:bg-gray-700">
             <div class="bg-red-600 h-1.5" style="width: 5%"></div>
           </div> -->
     <!-- </h5> -->
     <section class="bg-white dark:bg-gray-900">
       <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
         <div class="max-w-screen-xl p-10 text-left mb-8 lg:mb-16">
-          <label id="entreprise" 
+          <label id="entreprise"
             class="m-1 inline-flex carde items-center px-5 py-1 text-sm font-normal text-center text-gray-900  bg-gray-100 rounded-full  focus:ring-4 focus:outline-none active:ring-gray-300 dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
             <input type="radio" v-model="searchSector" value="" />
             Sélectionner tout
@@ -64,29 +65,31 @@
               171
             </span>
           </label>
-      
-            <label v-for="sect in this.secteur" :key="sect.nom" 
-              class="m-1 inline-flex carde items-center px-5 py-1 text-sm font-normal text-center text-gray-900 active:text-gray-900 bg-gray-100 rounded-full">
-              <input type="radio" v-model="searchSector" :value="sect.nom" />
-              {{ sect.nom }}
-              <span
-                class="inline-flex justify-center items-center ml-2 w-4 h-4 text-xs font-semibold text-gay-900 bg-gray-400 rounded-full">
-                {{ sect.nombre }}
-              </span>
-            </label>
-          </div>
-          
-          
-        
 
-        <div  class=" col space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+          <label v-for="sect in this.secteur" :key="sect.nom"
+            class="m-1 inline-flex carde items-center px-5 py-1 text-sm font-normal text-center text-gray-900 active:text-gray-900 bg-gray-100 rounded-full">
+            <input type="radio" v-model="searchSector" :value="sect.nom" />
+            {{ sect.nom }}
+            <span
+              class="inline-flex justify-center items-center ml-2 w-4 h-4 text-xs font-semibold text-gay-900 bg-gray-400 rounded-full">
+              {{ sect.nombre }}
+            </span>
+          </label>
+        </div>
+
+
+
+
+        <div class=" col space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
           <div v-for="entreprise in setSearchSector" :key="entreprise.nom">
-         
-            <div 
+
+            <div
               class=" card h-100 p-6 bg-white border cadre border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
               <a :href="`${entreprise.site}`" target="_blank" title="Clique pour voir le site web">
                 <div class="flex-shrink-0">
-                  <span class="bg-red-100 text-red-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-red-900 dark:text-red-300">{{ searchSector }}</span>
+                  <span v-if="searchSector != ''"
+                    class="bg-red-100 text-red-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-red-900 dark:text-red-300">{{
+                      searchSector }}</span>
                   <img class="mb-4" :src="require(`@/assets/${entreprise.image}.png`)" :alt="entreprise.image" />
 
                   <h5 class="mb-2 text-xl uppercase cursive font-medium tracking-tight text-gray-900 dark:text-white">
@@ -1932,5 +1935,4 @@ a {
 /* label.checked {
   background-color: gray;
   color: black;
-} */
-</style>
+} */</style>
