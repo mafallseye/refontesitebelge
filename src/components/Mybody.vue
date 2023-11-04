@@ -1,5 +1,5 @@
 <template>
-   <form class="mx-auto px-4">   
+   <form class="mx-auto px-4 mb-8">   
     <!-- <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label> -->
     <div class="relative ">
         
@@ -11,7 +11,7 @@
         </button>
     </div>
 </form>
-  <div class="row row-cols-1 row-cols-md-4 g-4 mx-auto p-10 bg-base-100">
+  <div class="row row-cols-1  row-cols-md-4 g-4 mx-auto p-10 bg-base-100">
   <div class="col" v-for="list in filteredUser.slice(0,1)" :key="list">
     <a @click=" SowMission()" style="text-decoration: none;">
     <div class="card h-100 card1 ">
