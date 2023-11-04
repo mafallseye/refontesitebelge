@@ -21,7 +21,7 @@
       
       
       <Image />
-          <Search />
+          <!-- <Search /> -->
       
           <Mybody />
       
