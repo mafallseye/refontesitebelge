@@ -88,17 +88,17 @@
     </div>
     </a>
   </div>
-  <div class="col">
+  <!-- <div class="col">
     <a href="/Finexpo-Brochure-FR-2023-Aide%20non%20liée-2023.pdf" style="text-decoration: none;">
     <div class="card h-100 card6">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
+     
       <div class="card-body">
-        <!-- <h5 class="card-title">Card title</h5> -->
+     
         <p class="card-text text-center">Finexpo-Brochure FR </p>
       </div>
     </div>
     </a>
-  </div>
+  </div> -->
   <div class="col">
     <a href="https://entreprendre.sn/senegal/" style="text-decoration: none;">
     <div class="card h-100 card7">

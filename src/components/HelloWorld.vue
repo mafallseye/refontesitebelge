@@ -17,6 +17,12 @@
               <router-link  to="/mission-economigque-belge-au-senegal" class="nav-link"  @click=" SowMission()">Entreprises belges & secteurs</router-link>
             </li>
             <li class="nav-item text-base font-medium text-gray-900 cursor-pointer">
+              
+              <router-link to="/information" class="nav-link"  @click=" ShowInfo()">
+                Informations pour les entreprises belges
+              </router-link>
+            </li>
+            <li class="nav-item text-base font-medium text-gray-900 cursor-pointer">
               <router-link to="/entreprise-au-senegal" class="nav-link"  @click=" ShowListEntrepriseSenegal()">Entreprise du sénégal</router-link>
             </li>
             <!-- <li class="nav-item  cursor-pointer">
@@ -24,12 +30,7 @@
                 Organisateurs
               </router-link>
             </li> -->
-            <li class="nav-item text-base font-medium text-gray-900 cursor-pointer">
-              
-              <router-link to="/information" class="nav-link"  @click=" ShowInfo()">
-                Informations pour les entreprises belges
-              </router-link>
-            </li>
+           
             <li class="nav-item text-base font-medium text-gray-900  cursor-pointer">
               <router-link to="/revue-presse" class="nav-link"  @click="ShowRevue()">
                 Revue de presse
