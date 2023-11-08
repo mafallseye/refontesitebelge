@@ -35,7 +35,7 @@
             </svg>
             <a href="#entreprise"
               class="ml-1 text-sm font-medium text-gray-700 hover:text-gray-900 md:ml-2 dark:text-gray-400 dark:hover:text-white">
-              <span class="bg-gray-100 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-gray-900 dark:text-gray-300">{{ searchSector }}</span>
+              <span  v-if="searchSector != ''" class="bg-gray-100 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-gray-900 dark:text-gray-300">{{ searchSector }}</span>
             </a>
           </div>
         </li>
@@ -302,6 +302,10 @@ export default {
         },
         {
           nom: "Fédération et chambre de commerce",
+          nombre: 12,
+        },
+        {
+          nom: "Machines et Materiels",
           nombre: 12,
         },
 
@@ -2776,6 +2780,97 @@ export default {
           profil: "Promotion du leadership féminin dans le secteur féminin.",
           image: "logo-wim",
           site: "https://wimsenegal.org/"
+        },
+        {
+          secteur: "Machines et Materiels",
+          nom: "Al Yosra International Company (AIC)",
+          profil: "Société de la famille FAKHFAKH du développement des solutions industriel & Ingénierie - Conseil & Main-d’œuvre et délégation des équipements et des produits industriels.",
+          image: "logo-aic",
+          site: "https://www.alyosra-ic.com/fr/"
+        },
+        {
+          secteur: "Machines et Materiels",
+          nom: "BIAGROUP",
+          profil: "Distribution de matériels et équipements industriels.",
+          image: "logo-bia",
+          site: "https://biagroup.com/group/en"
+        },
+        {
+          secteur: "Machines et Materiels",
+          nom: "Bepco Sénégal",
+          profil: "Fournisseur mondial de pièces pour tracteurs et matériels agricoles.",
+          image: "logo-bepco",
+          site: "https://www.bepcoparts.com/fr-xx"
+        },
+        {
+          secteur: "Machines et Materiels",
+          nom: "Bernabé Sénégal",
+          profil: "Spécialisée dans la vente en détail et la distribution d'équipements industriels et du matériel en acier.",
+          image: "logo-bernabe",
+          site: "https://yeshigroup.com/yeshigroup.com/fr/groupe.html"
+        },
+        {
+          secteur: "Machines et Materiels",
+          nom: "COGEKO DRILL WP",
+          profil: "Fournisseur d'équipements de forage, de tuyauterie et autres matériels de plomberie.",
+          image: "logo-bernabe",
+          site: "https://cogekodrill.com/"
+        },
+        {
+          secteur: "Machines et Materiels",
+          nom: "Cummings Afrique de l'Ouest",
+          profil: "Spécialiste dans la fabrication et la distribution de groupe électrogène.",
+          image: "logo-cummings",
+          site: "https://www.cummins.com/"
+        },
+        {
+          secteur: "Machines et Materiels",
+          nom: "Digital Electronic Sarl",
+          profil: "Fournisseur de matériels industriels spécialisés dans le domaine de l'automatisme, de l'électricité et du convoyage. Nous représentons officiellement au Sénégal les marques FESTO, IFM et BENNE SA.",
+          image: "logo-de",
+          site: "https://www.digitalelectronicsn.com/"
+        },
+        {
+          secteur: "Machines et Materiels",
+          nom: "Friedlander",
+          profil: "Fournisseur de solutions en ingénierie, travaux neufs et maintenance industrielle.",
+          image: "logo-ortec-group-2018",
+          site: "https://friedlander-ortec.com/"
+        },
+        {
+          secteur: "Machines et Materiels",
+          nom: "SAEZ CONSULTING SENEGAL",
+          profil: "Cabinet de conseil en industries et construction.",
+          image: "logo-saez",
+          site: "https://saez-it.com/"
+        },
+        {
+          secteur: "Machines et Materiels",
+          nom: "SMR Dubé",
+          profil: "Réparation et maintenance industrielle: transformateurs, moteurs électriques et locomotives.",
+          image: "SMR-DUBE-LOGO_web",
+          site: "https://smrdube.com/"
+        },
+        {
+          secteur: "Machines et Materiels",
+          nom: "Scomath SA",
+          profil: "Mécanique générale et industrielle, fabrication, vente, location et réparation de matériel industriel, moteurs et équipements professionnels.",
+          image: "NOUVEAU-LOGO-SCOMATH-transparent-min",
+          site: "https://scomath.com/"
+        },
+        {
+          secteur: "Machines et Materiels",
+          nom: "Senegal Automation Technology Assistance",
+          profil: "Automatisme industriel,Instrumentation et Electricité industrielle.",
+          image: "logo-sata",
+          site: "http://senegalautomation.com/"
+        },
+        {
+          secteur: "Machines et Materiels",
+          nom: "Sonerco/Filiale du Groupe Cosemad",
+          profil: "Spécialisée dans l’énergie, l’industrie, le BTP, l’hydraulique, et les équipements techniques.",
+          image: "logo-cosemad-site",
+          site: "https://cosemad.sn/sonerco/"
         },
 
       ],

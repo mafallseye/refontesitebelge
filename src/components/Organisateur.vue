@@ -98,7 +98,7 @@
                   <span class="text-sm">14 days ago</span> -->
               <!-- </div> -->
               <!-- <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="#">How to quickly deploy a static website</a></h2> -->
-              <p class="mb-2 font-semibold text-gray-900 dark:text-gray-900">  hub.brussel vise à promouvoir l'internationalisation de l'économie bruxelloise en assistant les entreprises bruxelloises sur les marchés étrangers.</p>
+              <p class="mb-2 font-semibold text-gray-900 dark:text-gray-900">  Le service économique et commercial Belge à Dakar est un service extérieur des gouvernements de Bruxelles-Capitale, de Flandre et de Wallonie. Il représente les trois agences régionales du commerce extérieur (Hub.Brussels, FIT et AWEX) et a pour juridiction le Sénégal, la Gambie, la Guinée, le Cap-Vert et la Guinée-Bissau. Le service économique et commercial apporte un soutien au développement international de toutes les entreprises du territoire Belge.</p>
               <!-- <div class="flex justify-between items-center"> -->
                   <!-- <div class="flex items-center space-x-4">
                       <img class="w-7 h-7 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="Jese Leos avatar" />
