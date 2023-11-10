@@ -1,4 +1,4 @@
 module.exports = {
-    publicPath: process.env.MODE_ENV === 'production' ? '' : '/'
+    publicPath:'/index.html'
 
 }
