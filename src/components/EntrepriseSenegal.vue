@@ -26,7 +26,7 @@
               & secteurs au sénégal</a>
           </div>
         </li>
-        <li>
+        <li v-if="searchSector != ''">
           <div class="flex items-center">
             <svg class="w-6 h-6 text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd"
@@ -35,7 +35,7 @@
             </svg>
             <a href="#entreprise"
               class="ml-1 text-sm font-medium text-gray-700 hover:text-gray-900 md:ml-2 dark:text-gray-400 dark:hover:text-white">
-              <span  v-if="searchSector != ''" class="bg-gray-100 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-gray-900 dark:text-gray-300">{{ searchSector }}</span>
+              <span   class="bg-gray-100 text-gray-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-gray-900 dark:text-gray-300">{{ searchSector }}</span>
             </a>
           </div>
         </li>
